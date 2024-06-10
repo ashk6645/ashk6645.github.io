@@ -22,8 +22,8 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-   /*background-image:url(Images/back.gif) ;
-    background-size:cover;*/
+    background-image:url(Images/back.gif) ;
+    background-size:cover;
     background-position: center;
     background-color: #fff;
    
