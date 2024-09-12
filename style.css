@@ -14,7 +14,7 @@
 }
 
 #preloader img {
-    width: 150px; /* Adjust the size of your GIF */
+    width: fit-content;; /* Adjust the size of your GIF */
 }
 
 
