@@ -278,20 +278,13 @@
     <script>
 
 
-        // Preloader script to hide the preloader after page loads
-        document.addEventListener("DOMContentLoaded", function() {
-    const preloader = document.getElementById('preloader');
-    const mainContent = document.getElementById('main-content');
-
-    // Delay for preloader (in milliseconds)
-    setTimeout(() => {
-        preloader.classList.add('opacity-0', 'transition-opacity', 'duration-1000');
-        setTimeout(() => {
-            preloader.classList.add('hidden');
-            mainContent.classList.remove('hidden');
-        }, 1000); // Wait for fade out to complete
-    }, 3000); // 3-second delay to show the gif fully
-});
+         // Preloader script to hide the preloader after a set duration
+        window.addEventListener('load', function(){
+            const gifDuration = 3500; // Adjust this duration to match your GIF (in milliseconds)
+            setTimeout(function(){
+                document.getElementById('preloader').style.display = 'none';
+            }, gifDuration); // Wait for the entire GIF to play before hiding the preloader
+        });
 
     </script>
 </body>
