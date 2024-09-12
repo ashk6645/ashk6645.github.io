@@ -282,7 +282,10 @@
 
         // Preloader script to hide the preloader after page loads
         window.addEventListener('load', function(){
-            document.getElementById('preloader').style.display = 'none';
+            const gifDuration = 5000; // Adjust this duration to match your GIF (in milliseconds)
+            setTimeout(function(){
+                document.getElementById('preloader').style.display = 'none';
+            }, gifDuration); // Wait for the entire GIF to play before hiding the preloader
         });
 
         
