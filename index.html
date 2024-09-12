@@ -9,6 +9,16 @@
     <script src="https://kit.fontawesome.com/cd287cbc0c.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <img src="Images/back.gif" alt="Loading...">
+    </div>
+
+
+
+    
     <div id="header">
         <div class="container">
             <nav>
@@ -268,6 +278,14 @@
     </script>
 
     <script>
+
+
+        // Preloader script to hide the preloader after page loads
+        window.addEventListener('load', function(){
+            document.getElementById('preloader').style.display = 'none';
+        });
+
+        
         var sidemenu = document.getElementById("sidemenu");
         function openmenu(){
             sidemenu.style.right = "0";
