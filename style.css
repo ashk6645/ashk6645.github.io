@@ -64,12 +64,7 @@ body{
 .container{
     padding: 10px 10%;
 
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000; /* Ensure it stays on top of other elements */
-    background-color: white; /* Set background to prevent content below from being visible */
+   
 }
 }
 
@@ -85,12 +80,6 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
 
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000; /* Ensure it stays on top of other elements */
-    background-color: white; /* Set background to prevent content below from being visible */
 }
 }
 
