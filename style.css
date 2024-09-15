@@ -32,8 +32,6 @@
 
 
 
-
-
 html{
     scroll-behavior: smooth;
 }
@@ -41,7 +39,6 @@ html{
 body{
     background: white;
     color: black;
-    padding-top: 80px;
 }
 
 
