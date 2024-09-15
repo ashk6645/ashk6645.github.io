@@ -41,9 +41,55 @@ html{
 body{
     background: white;
     color: black;
+    padding-top: 80px;
 }
 
+
+
+
  
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it stays on top of other elements */
+    background-color: white; /* Set background to prevent content below from being visible */
+}
+
+.container {
+    max-width: 1200px; /* Adjust according to your design */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
 
 #header{
     width: 100%;
