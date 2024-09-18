@@ -364,6 +364,8 @@ h3{
 .work img{
     width: 100%;
     border-radius: 10px;
+    height: 300px;
+    object-fit:cover;
     display:block;
     transition: transform 0.3s;
 }
