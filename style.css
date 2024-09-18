@@ -241,20 +241,19 @@ h3{
 /*-------------------WorkExp--------------*/
 
 /* Add CSS styles for the box effect and hover effect */
-/*
-#work-exp .work-item {
-    background-color: #f5f5f5;
-    border: 1px solid black;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    transition: box-shadow 0.3s ease;
+
+#work-exp .work {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-#work-exp .work-item:hover {
-    box-shadow: 0 40px 8px rgba(1, 0, 0, 0.1);
+#work-exp .work img {
+    width: 50px; /* Adjust the size as needed */
+    margin-top: 10px; /* Adjust the spacing as needed */
 }
-*/
+
+
 
 
 
