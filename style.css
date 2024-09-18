@@ -1,5 +1,3 @@
-//* Enhanced Portfolio CSS */
-
 *{
     margin: 0;
     padding: 0;
@@ -19,12 +17,12 @@ body{
     color: black;
 }
 
-
+ 
 
 #header{
     width: 100%;
     height: 100vh;
-   /* background-image:url(Images/back.gif) ;*/
+    background-image:url(Images/back.gif) ;
     background-size:cover;
     background-position: center;
     background-color: #fff;
@@ -38,9 +36,6 @@ body{
 
 .container{
     padding: 10px 10%;
-
-   
-}
 }
 
 .logo h1{
@@ -54,8 +49,6 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-
-}
 }
 
 .logo{
@@ -248,71 +241,20 @@ h3{
 /*-------------------WorkExp--------------*/
 
 /* Add CSS styles for the box effect and hover effect */
-/*  #work-exp {
-    background-color: #f9f9f9;
+/*
+#work-exp .work-item {
+    background-color: #f5f5f5;
+    border: 1px solid black;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
-}
-
-#work-exp:hover {
-    transform: scale(1.02);
-}
-
-.container {
-    max-width: 800px;
-    margin: auto;
-}
-
-.sub-title {
-    text-align: center;
-    font-size: 2em;
     margin-bottom: 20px;
-    color: #333;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease;
 }
 
-.work {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
-}
-
-.work:hover {
-    transform: translateY(-10px);
-}
-
-.job-title {
-    font-weight: 600;
-    margin-top: 0;
-    color: #333;
-}
-
-.job-duration {
-    color: grey;
-    font-size: medium;
-    margin-top: 0;
-}
-
-.company-name {
-    color: blue;
-    margin-top: 10px;
-}
-
-.job-details {
-    color: grey;
-    padding-right: 10%;
-    margin: 10px 0;
-    list-style-type: disc;
-}
-
-.job-details li {
-    margin: 1% 0;
+#work-exp .work-item:hover {
+    box-shadow: 0 40px 8px rgba(1, 0, 0, 0.1);
 }
 */
-
 
 
 
@@ -339,8 +281,6 @@ h3{
 .work img{
     width: 100%;
     border-radius: 10px;
-    height: 300px;
-    object-fit:cover;
     display:block;
     transition: transform 0.3s;
 }
