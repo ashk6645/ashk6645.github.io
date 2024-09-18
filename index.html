@@ -4,70 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ashu's Portfolio</title>
-    <link rel="icon" type="image/jpg" href="Images/fev.jpg">
+     <link rel="icon" type="image/jpg" href="Images/fev.jpg">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/cd287cbc0c.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+
+
+    
     <div id="header">
         <div class="container">
             <nav>
                <div class="logo">
-                   <h1 style="color: black;">As<span style="color: #ff004f;">hu.</span></h1>
-               </div>
+               <h1 style="color: black;">As<span style="color: #ff004f;">hu.</span></h1>
+            </div>
+                <h1></h1>
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Technologies</a></li>
                     <li><a href="#portfolio">My Work</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <!--<i class="fa-solid fa-xmark" onclick="closemenu()"></i>-->
                 </ul>
+                <!--<i class="fa-solid fa-bars" onclick="openmenu()"></i>-->
             </nav>
             <div class="header-text">
-                <h2 style="text-align: center; color: black;">Hi! I am <span style="color: #ff004f;">Ashutosh</span></h2>
-                <h2 style="text-align: center; color: black;">Welcome to my Website</h2>
+                
+                <h2 style="text-align: center; color: black;">Hi! I am <span style="color: #ff004f;">Ashutosh<br></span>
+                <span style="text-align: center; color: black;">Welcome to my Website</span></h2>
+           
             </div>
+          
+
         </div>
     </div>
 
-    <!-- About section -->
+    <!----------------------about---------------------->
     <div id="about">
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="Images/background1.jpg" alt="Profile Image">
+                  <img src="Images/background1.jpg" alt="Image">
+                  
                 </div>
                 <div class="about-col-2">
                     <h1 class="subtitle">About Me</h1>
-                    <p style="color: black;">
-                        <h2 style="padding-right: 5%;">Innovative engineering student specializing in frontend web development with a strong foundation in data structures and algorithms.
+                    <p style="color: black;"><h2 style="padding-right: 5%;">Innovative engineering student specializing in frontend web development with a strong foundation in data structures and algorithms.
                         Passionate about crafting efficient and elegant solutions to complex problems, driven by a desire to create seamless user experiences.
-                        Dedicated to continuous learning and staying abreast of the latest technologies in the field.</h2>
-                    </p>
+                        Dedicated to continuous learning and staying abreast of the latest technologies in the field.</h2></p>
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                         <p class="tab-links" onclick="opentab('experience')">Interest</p>
                         <p class="tab-links" onclick="opentab('education')">Education</p>
                     </div>
                     <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li>Proficient in Java programming with a deep understanding of data structures and algorithms.</li>
-                            <li>Solid grasp of object-oriented programming (OOP) principles for building scalable and maintainable software.</li>
-                            <li>Experienced in web development technologies including HTML, CSS, JavaScript, and frameworks like React or Spring Boot.</li>
-                            <li>Skilled in problem-solving, debugging, and implementing efficient solutions across diverse software domains.</li>
+                        <ul style="list-style-type:disc;">
+                          <li><p>Proficient in Java programming with a deep understanding of data structures and algorithms.</p></li>
+                           <li><p>Solid grasp of object-oriented programming (OOP) principles for building scalable and maintainable software.</p></li>
+                           <li><p>Experienced in web development technologies including HTML, CSS, JavaScript, and frameworks like React or Spring Boot.</p></li>
+                           <li><p>Skilled in problem-solving, debugging, and implementing efficient solutions across diverse software domains.</p></li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="experience">
                         <ul>
-                            <li>I have a strong passion for self-improvement, constantly seeking to expand my knowledge and skill set.</li>
-                            <li>I thrive on exploring and mastering new technologies, leveraging them to create innovative solutions.</li>
-                            <li>I enjoy the process of ideation and creation, turning concepts into tangible products or projects.</li>
-                            <li>Whether it's learning a new programming language or delving into emerging tech trends, I'm driven by a curiosity to push boundaries and make meaningful contributions.</li>
+                          <li> I have a strong passion for self-improvement, constantly seeking to expand my knowledge and skill set.</li>
+                          <li>I thrive on exploring and mastering new technologies, leveraging them to create innovative solutions.</li>
+                          <li>I enjoy the process of ideation and creation, turning concepts into tangible products or projects.</li>
+                          <li>Whether it's learning a new programming language or delving into emerging tech trends, I'm driven by a curiosity to push boundaries and make meaningful contributions.</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li><span>Computer Science and Engineering</span></li>
+                            <li><span>Computer Science and Engineering</span> <!----<br>Galgotias University | 2021 - 2025----></li>
+                          <!--------<li><span>10th</span><br>St. Xavier's Higher Secondary School | 2018</li>------>
+                           <!-------<li><span>12th</span><br>St. Xavier's Senior Secondary School | 2020</li>------->
                         </ul>
                     </div>
                 </div>
@@ -75,114 +87,140 @@
         </div>
     </div>
 
-    <!-- Services section -->
+    <!--------Services--------->
     <div id="services">
         <div class="container">
             <h1 class="sub-title">Technologies</h1>
-            <p><h2 style="color: gray; margin: 5px 5px 5px; padding: 0; padding-right: 10%;">Welcome! I bring a wealth of expertise in an array of programming languages and technical skills to the table.</h2></p>
+          <p><h2 style="color: gray; margin: 5px 5px 5px ; padding: 0; padding-right: 10%;">Welcome! I bring a wealth of expertise in an array of programming languages and technical skills to the table.</h2></p></style>
             <div class="services-list">
                 <div>
                     <i class="fa-solid fa-code"></i>
                     <h2>Programming Languages</h2>
-                    <p>Experience with Java, C/C++ and JavaScript</p>
+                    <p> Experience with Java, C/C++ and JavaScript</p>
                     <a href="https://www.w3schools.com/">Learn more</a>
                 </div>
                 <div>
                     <i class="fa-brands fa-react"></i>
                     <h2>Front-End Dev</h2>
-                    <p>Experience with HTML, CSS and JavaScript</p>
+                    <p>Experience with HTML, CSS and JavaScript </p>
                     <a href="https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer">Learn more</a>
                 </div>
                 <div>
                     <i class="fa-brands fa-git-alt"></i>
                     <h2>Version Control</h2>
-                    <p>Experience with Git and GitHub</p>
+                    <p>Experience with Git and GitHub </p>
                     <a href="https://www.codecademy.com/learn/learn-git">Learn more</a>
                 </div>
+
                 <div>
                     <i class="fa-solid fa-database"></i>
                     <h2>Database</h2>
-                    <p>Experience with SQL</p>
+                    <p>Experience with SQL </p>
                     <a href="https://aws.amazon.com/what-is/sql/">Learn more</a>
                 </div>
+
+
                 <div>
                     <i class="fa-brands fa-java"></i>
                     <h2>Framework</h2>
-                    <p>Learning Spring and Spring Boot</p>
+                    <p>Learning Spring and Spring Boot </p>
                     <a href="https://spring.io/projects/spring-boot">Learn more</a>
                 </div>
+
                 <div>
                     <i class="fa-solid fa-laptop-code"></i>
                     <h2>Coding Workspace</h2>
-                    <p>Experience with IntelliJ IDEA and VS-Code</p>
+                    <p>Experience with IntelliJ IDEA and VS-Code </p>
                     <a href="https://www.jetbrains.com/idea/">Learn more</a>
                 </div>
+
+
+                
             </div>
         </div>
     </div>
 
-    <!-- Work Experience section -->
-    <div id="work-exp">
-        <div class="container">
-            <h1 class="sub-title">Work Experience</h1>
-            <div class="work">
-                <h2 style="font-weight: 100; margin-top: 1%; display: inline;">Software Engineering Intern</h2>
-                <h3 style="color: grey; font-size: medium; display: inline;">(May 2023 - September 2023)</h3>
-                <h2 style="color: blue;">Intel</h2>
-                <h3 style="color: grey; padding-right: 10%; margin: 10px; font-weight: 10;">
-                    <ul>
-                        <li style="margin: 1%;">Developed cutting-edge Accident Location software for Indian roads in Python, resulting in a 15% increase in the accuracy of location prediction.</li>
-                        <li style="margin: 1%;">Integrated Google Map API and OpenStreetMap for precise location predictions, improving prediction accuracy by 20%.</li>
-                        <li style="margin: 1%;">Applied advanced Machine Learning with PyTorch and Scikit-learn leading to enhancement in model and optimized data preprocessing using Matplotlib, NumPy, and Pandas, resulting in 30% improvement in insights extraction efficiency.</li>
-                    </ul>
+
+<!--------------------------WorkExperience------------------------>
+<div id="work-exp">
+    <div class="container">
+        <h1 class="sub-title">Work Experience</h1>
+        <div class="work">
+            <h2 style="font-weight: 100;  margin-top: 1%; display: inline;">Software Engineering Intern</h2>
+            <h3 style="color: grey; font-size: medium; display: inline;">(May 2023 - September 2023)</h3>
+            <h2 style="color: blue;">intel</h2>
+            <h3 style="color: grey;padding-right: 10%; margin: 10px; font-weight: 10;">
+        
+           <ul>   <li style="margin: 1%;">Developed cutting-edge Accident Location software for Indian 
+                roads in Python, resulting in a 15% increase in the accuracy of 
+                location prediction.</li>
+             <li style="margin: 1%;">Integrated Google Map API and OpenStreetMap for precise 
+                location predictions, improving prediction accuracy by 20%.</li>
+             <li style="margin: 1%;">Applied advanced Machine Learning with PyTorch and Scikit-learn
+                leading to enhancement in model and optimized data 
+                preprocessing using Matplotlib, NumPy, and Pandas, resulting in 
+                30% improvement in insights extraction efficiency.</li>
+                
                 </h3>
-            </div>
-        </div>
-    </div>
+                </ul>
+           
 
-    <!-- Portfolio section -->
+            
+        </div>
+
+    </div>
+</div>
+
+
+    
+
+    <!----------------------MyWork------------------>
     <div id="portfolio">
         <div class="container">
             <h1 class="sub-title">My Work</h1>
             <div class="work-list">
                 <div class="work">
-                    <img src="Images/brickbreaker.gif" alt="Brick Breaker Game" />
+                    <img src="Images/brickbreaker.gif" />
                     <div class="layer">
                         <h3 style="color: #fff;">Brick Breaker Game</h3>
-                        <p>This is a Brick Breaker Game developed in Java</p>
+                        <p>This is a Brick Breaker Game developed in Java </p>
                         <a href="https://github.com/ashk6645/Brick-Breaker-Game"><i class="fa-solid fa-link"></i></a>
                     </div>
                 </div>
+                
                 <div class="work">
-                    <img src="Images/sorting.gif" alt="Sorting Algorithm Visualizer">
+                    <img src="Images/sorting.gif">
                     <div class="layer">
                         <h3 style="color: #fff;">Sorting Algorithm Visualizer</h3>
                         <p>Visual representation of how sorting algorithms work</p>
                         <a href="https://sortingalgo6645.netlify.app/"><i class="fa-solid fa-link"></i></a>
                     </div>
                 </div>
+
                 <div class="work">
-                    <img src="Images/shortestpath.gif" alt="Shortest Path Finder">
+                    <img src="Images/shortestpath.gif">
                     <div class="layer">
                         <h3 style="color: #fff;">Shortest Path Finder</h3>
                         <p>Find the shortest path between two nodes</p>
                         <a href="https://shortestpath6645.netlify.app/"><i class="fa-solid fa-link"></i></a>
                     </div>
                 </div>
+
                 <div class="work">
-                    <img src="Images/loginpage.gif" alt="Login Page">
+                    <img src="Images/loginpage.gif" >
                     <div class="layer">
                         <h3 style="color: #fff;">Login Page</h3>
                         <p>Login Page UI</p>
                         <a href="https://github.com/ashk6645/Login-Page"><i class="fa-solid fa-link"></i></a>
                     </div>
                 </div>
+
             </div>
             <a href="https://github.com/ashk6645" class="btn">See More</a>
         </div>
     </div>
 
-    <!-- Contact section -->
+    <!-------------------------Contact------------------->
     <div id="contact">
         <div class="container">
             <div class="row">
@@ -191,6 +229,7 @@
                     <p><i class="fa-solid fa-envelope"></i>abc@gmail.com</p>
                     <p><i class="fa-solid fa-phone"></i>+91-**** ** ****</p>
                     <div class="social-icons">
+                        
                         <a href="https://github.com/ashk6645"><i class="fa-brands fa-github"></i></a>
                         <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
                         <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
@@ -202,7 +241,7 @@
                     <form>
                         <input type="text" name="Name" placeholder="Your Name" required>
                         <input type="email" name="email" placeholder="Your Email" required>
-                        <textarea name="Message" rows="6" placeholder="Add your Message"></textarea>
+                        <textarea name="Message"  rows="6" placeholder="Add your Message"></textarea>
                         <button type="submit" class="btn btn2">Submit</button>
                     </form>
                 </div>
@@ -210,10 +249,10 @@
         </div>
     </div>
 
-    <!-- Copyright section -->
+    <!--------------------------Copyright---------->
     <div class="copyright">
         <p>© since 2024. All rights reserved</p>
-        <p>Made With <i class="fa-solid fa-heart"></i> by Ashutosh</p>
+    <p>Made With <i class="fa-solid fa-heart"></i> by Ashutosh</p>
     </div>
 
     <script>
@@ -230,5 +269,6 @@
             document.getElementById(tabname).classList.add("active-tab");
         }
     </script>
+
 </body>
 </html>
