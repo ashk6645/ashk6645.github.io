@@ -389,80 +389,115 @@ h3{
 
 
 /*-------------Contact----------*/
-.contact-left{
-    flex-basis: 35%;
+#contact {
+    padding: 50px 0;
+    background-color: #f9f9f9;
 }
 
-.contact-right{
-    flex-basis: 60%;
+.contact-left {
+    flex-basis: 40%;
+    padding: 20px;
 }
 
-.contact-left p{
-    margin-top: 30px;
+.contact-right {
+    flex-basis: 55%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.contact-left p i{
+.contact-left h1.sub-title {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-left p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-left p i {
     color: #ff004f;
-    margin-right:15px;
-    font-size: 25px;
+    margin-right: 10px;
+    font-size: 24px;
 }
 
-.social-icons{
+.social-icons {
     margin-top: 30px;
 }
 
-.social-icons a{
+.social-icons a {
     text-decoration: none;
-    font-size: 15px;
+    font-size: 24px;
     margin-right: 15px;
     color: #ababab;
-    display: inline-block;
-    transition: transform 0.5s;
+    transition: transform 0.3s, color 0.3s;
 }
 
-.social-icons a:hover{
+.social-icons a:hover {
     color: #ff004f;
-    transform: translate(-5px);
+    transform: translateY(-5px);
 }
 
-.btn.btn2{
+.btn.btn2 {
     display: inline-block;
     background: #ff004f;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    margin-top: 20px;
+    text-decoration: none;
 }
 
-.contact-right form{
+.btn.btn2:hover {
+    background: #e60042;
+}
+
+.contact-right form {
     width: 100%;
 }
 
-form input, form textarea{
+form input, form textarea {
     width: 100%;
-    border: 0;
-    outline: none;
-    background: aliceblue;
+    border: 1px solid #ddd;
+    background: #fafafa;
     padding: 15px;
     margin: 15px 0;
-    color: black;
-    border-radius: 6px;
-    font-size: 18px;
+    color: #333;
+    border-radius: 5px;
+    font-size: 16px;
 }
 
-form .btn2{
-    padding: 14px 60px;
+form input:focus, form textarea:focus {
+    border-color: #ff004f;
+    background: #fff;
+}
+
+form .btn2 {
+    padding: 14px 40px;
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
+    display: inline-block;
+    text-align: center;
 }
 
-.copyright{
+.copyright {
     width: 100%;
     text-align: center;
     padding: 25px 0;
-    background: aliceblue;
+    background: #f1f1f1;
     font-weight: 300;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
-.copyright i{
+.copyright i {
     color: #ff004f;
 }
 
