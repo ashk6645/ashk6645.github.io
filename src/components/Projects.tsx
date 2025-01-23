@@ -41,10 +41,10 @@ export const Projects = () => {
 
 
     {
-      title: 'Login Page',
-      description: 'Login Page UI',
-      image: 'https://freefrontend.com/assets/img/css-login-forms/CSS-Cube-Login-Form.gif',
-      link: 'https://github.com/ashk6645/Login-Page',
+      title: 'imagify',
+      description: 'Text-to Image Generator',
+      image: 'https://thenetworkgarden.blogs.com/.a/6a00d8341c285b53ef02a30d4e7b10200b-600wi',
+      link: 'https://github.com/ashk6645/Text-to-Image',
     },
   ];
 
