@@ -43,7 +43,7 @@ export const Projects = () => {
     {
       title: 'imagify',
       description: 'Text-to Image Generator',
-      image: 'https://thenetworkgarden.blogs.com/.a/6a00d8341c285b53ef02a30d4e7b10200b-600wi',
+      image: 'https://www.piclumen.com/wp-content/uploads/2024/10/piclumen-upscale-after.webp',
       link: 'https://github.com/ashk6645/Text-to-Image',
     },
   ];
