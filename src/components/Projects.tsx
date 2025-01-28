@@ -4,6 +4,13 @@ import { ExternalLink } from 'lucide-react';
 
 export const Projects = () => {
   const projects = [
+
+    {
+      title: 'imagify',
+      description: 'Coming Soon',
+      image: 'https://www.piclumen.com/wp-content/uploads/2024/10/piclumen-upscale-after.webp',
+      link: 'https://github.com/ashk6645/Text-to-Image',
+    },
     {
       title: 'Real Estate',
       description: "Let's make something amazing together—your story, your space, your vision.",
@@ -40,12 +47,7 @@ export const Projects = () => {
     },
 
 
-    {
-      title: 'imagify',
-      description: 'Text-to Image Generator',
-      image: 'https://www.piclumen.com/wp-content/uploads/2024/10/piclumen-upscale-after.webp',
-      link: 'https://github.com/ashk6645/Text-to-Image',
-    },
+    
   ];
 
   return (
