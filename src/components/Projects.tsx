@@ -1,6 +1,6 @@
 // import React from 'react';
 import { motion } from 'framer-motion';
-import { ExternalLink } from 'lucide-react';
+import { ExternalLink, Github } from 'lucide-react';
 
 export const Projects = () => {
   const projects = [
@@ -54,7 +54,7 @@ export const Projects = () => {
     <section id="projects" className="py-20 bg-gradient-to-r from-blue-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-800 mb-4">My Work</h2>
+          <h2 className="text-4xl font-bold text-gray-800 mb-4">Projects</h2>
           <p className="text-xl text-gray-600 mb-12">
             Here's a selection of some of my recent projects. I enjoy working on different types of projects to solve real-world problems.
           </p>
@@ -64,16 +64,23 @@ export const Projects = () => {
             <ProjectCard key={index} {...project} index={index} />
           ))}
         </div>
-        <div className="text-center mt-12">
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.5 }}
+          viewport={{ once: true }}
+          className="text-center mt-20"
+        >
           <a
             href="https://github.com/ashk6645"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-rose-500 text-white px-8 py-3 rounded-lg hover:bg-rose-600 transition-colors text-lg"
+                className="inline-flex items-center gap-3 bg-slate-800 hover:bg-red-600 text-white px-8 py-4 rounded-xl hover:scale-[1.02] transition-transform duration-300 text-lg font-medium shadow-xl"
           >
-            See More Projects 
+            <Github className="w-5 h-5" />
+            Explore Full Codebase
           </a>
-        </div>
+        </motion.div>
       </div>
     </section>
   );
