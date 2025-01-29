@@ -42,8 +42,7 @@ export const About = () => {
           <div>
             <h2 className="text-4xl font-extrabold text-gray-800 mb-6">About Me</h2>
             <p className="text-gray-700 text-lg mb-6 leading-relaxed">
-              I’m a passionate software developer with a knack for solving complex challenges and delivering seamless user experiences.
-              Focused on continuous learning and staying at the forefront of emerging technologies.
+                A passionate developer building scalable and user-friendly applications.
             </p>
 
             {/* Tab Buttons */}
